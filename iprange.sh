@@ -1,7 +1,20 @@
 #!/bin/bash
-clear
+network_bytes=192.168
 
-network_bytes=10.7
+##################################################
+### No need to change anything under this line ###
+##################################################
+
+# define usage function
+usage(){
+	echo "Don't forget to set the first two bytes"
+	echo "Usage: $0 [3rd Byte] [Range to scan] [Fast scan ? 0|1]"
+	exit 1
+}
+# Call usage() if (-h | --help) option
+[[ $1 ==  "-h" ]] || [[ $1 == "--help" ]] && usage
+
+clear
 
 function ouistiti {
     echo
