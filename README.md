@@ -15,11 +15,14 @@ By default the beginning of the IP address is set to 192.168 and is stored in $n
 * The third and last parameter will be weither you want a fast and sloppy scan or a longer and more precise one. Accepts 1 or 0.(takes around 13 seconds vs 2 minutes)
 
 ```sh
-# Let's say you are on 192.168.0.0/24 and want to scan quickly all of the possible addresses:
+#  Let's say you are on 192.168.0.0/24 and want to scan quickly 
+#+ all of the possible addresses:
 $ ./iprange.sh 0 254 1
 ```
 
 You can also call iprange.sh without any parameters, you will be asked for them.
+
+
 
 
 ### Installation
