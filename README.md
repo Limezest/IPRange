@@ -22,7 +22,7 @@ $ ./iprange.sh 0 254 1
 <br/>
 You can also call iprange.sh without any parameters, you will be asked for them.
 
-<br/><br/>
+<br/>
 ### Installation
 
 ```sh
@@ -34,7 +34,7 @@ You can eventually add a link to iprange.sh in your $PATH if you want to make it
 # From the root directory of the project:
 $ ln -s `pwd`/iprange.sh /usr/bin/iprange
 ```
-
+<br/>
 ### Todo's
 
 * Clean code
