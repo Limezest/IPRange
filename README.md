@@ -4,7 +4,7 @@ IPRange is a fast and efficient tool to scan your Local Area Network.<br />
 Once your network scanned, iprange helps you SSH into connected devices or map their ports.<br />
 (The script relies on ICMP, SSH and IMAP, do not block those protocols on your LAN.)
 
-
+<br/>
 <img align="right" src="http://puu.sh/k4hFm/a45745c7f4.png">
 ### Usage :
 > If the first two bytes of your IP address are not 192.168, please don't forget to change the value of 'network_bytes' at the top of iprange.sh.
@@ -19,12 +19,10 @@ By default the beginning of the IP address is set to 192.168 and is stored in $n
 #+ all of the possible addresses:
 $ ./iprange.sh 0 254 1
 ```
-
+<br/>
 You can also call iprange.sh without any parameters, you will be asked for them.
 
-
-
-
+<br/><br/>
 ### Installation
 
 ```sh
