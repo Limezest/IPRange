@@ -1,0 +1,2 @@
+# DEFINING GLOBAL VARIABLES :
+network_bytes=10.7
